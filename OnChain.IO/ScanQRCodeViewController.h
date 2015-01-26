@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ScanQRCodeViewController.h
 //  OnChain.IO
 //
 //  Created by Cool on 1/26/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ScanQRCodeViewController : UIViewController
 
 @end
-
