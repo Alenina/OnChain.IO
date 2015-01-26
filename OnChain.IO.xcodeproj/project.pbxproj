@@ -10,11 +10,11 @@
 		7E3C9DB61A767C4500E16CE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C9DB51A767C4500E16CE6 /* main.m */; };
 		7E3C9DB91A767C4500E16CE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C9DB81A767C4500E16CE6 /* AppDelegate.m */; };
 		7E3C9DBC1A767C4500E16CE6 /* OnChain_IO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C9DBA1A767C4500E16CE6 /* OnChain_IO.xcdatamodeld */; };
-		7E3C9DBF1A767C4500E16CE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C9DBE1A767C4500E16CE6 /* ViewController.m */; };
 		7E3C9DC21A767C4500E16CE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C9DC01A767C4500E16CE6 /* Main.storyboard */; };
 		7E3C9DC41A767C4500E16CE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C9DC31A767C4500E16CE6 /* Images.xcassets */; };
 		7E3C9DC71A767C4500E16CE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C9DC51A767C4500E16CE6 /* LaunchScreen.xib */; };
 		7E3C9DD31A767C4500E16CE6 /* OnChain_IOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C9DD21A767C4500E16CE6 /* OnChain_IOTests.m */; };
+		7E3C9DED1A767CB900E16CE6 /* ScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C9DEC1A767CB900E16CE6 /* ScanQRCodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +34,14 @@
 		7E3C9DB71A767C4500E16CE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E3C9DB81A767C4500E16CE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7E3C9DBB1A767C4500E16CE6 /* OnChain_IO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnChain_IO.xcdatamodel; sourceTree = "<group>"; };
-		7E3C9DBD1A767C4500E16CE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7E3C9DBE1A767C4500E16CE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7E3C9DC11A767C4500E16CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E3C9DC31A767C4500E16CE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7E3C9DC61A767C4500E16CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7E3C9DCC1A767C4500E16CE6 /* OnChain.IOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnChain.IOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3C9DD11A767C4500E16CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3C9DD21A767C4500E16CE6 /* OnChain_IOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnChain_IOTests.m; sourceTree = "<group>"; };
+		7E3C9DEB1A767CB900E16CE6 /* ScanQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanQRCodeViewController.h; sourceTree = "<group>"; };
+		7E3C9DEC1A767CB900E16CE6 /* ScanQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanQRCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 			children = (
 				7E3C9DB71A767C4500E16CE6 /* AppDelegate.h */,
 				7E3C9DB81A767C4500E16CE6 /* AppDelegate.m */,
-				7E3C9DBD1A767C4500E16CE6 /* ViewController.h */,
-				7E3C9DBE1A767C4500E16CE6 /* ViewController.m */,
+				7E3C9DEB1A767CB900E16CE6 /* ScanQRCodeViewController.h */,
+				7E3C9DEC1A767CB900E16CE6 /* ScanQRCodeViewController.m */,
 				7E3C9DC01A767C4500E16CE6 /* Main.storyboard */,
 				7E3C9DC31A767C4500E16CE6 /* Images.xcassets */,
 				7E3C9DC51A767C4500E16CE6 /* LaunchScreen.xib */,
@@ -224,8 +224,8 @@
 			files = (
 				7E3C9DB91A767C4500E16CE6 /* AppDelegate.m in Sources */,
 				7E3C9DBC1A767C4500E16CE6 /* OnChain_IO.xcdatamodeld in Sources */,
-				7E3C9DBF1A767C4500E16CE6 /* ViewController.m in Sources */,
 				7E3C9DB61A767C4500E16CE6 /* main.m in Sources */,
+				7E3C9DED1A767CB900E16CE6 /* ScanQRCodeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +418,7 @@
 				7E3C9DD81A767C4500E16CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E3C9DD91A767C4500E16CE6 /* Build configuration list for PBXNativeTarget "OnChain.IOTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				7E3C9DDB1A767C4500E16CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

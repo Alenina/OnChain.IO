@@ -7,9 +7,11 @@
 //
 
 #import "ScanQRCodeViewController.h"
+#import <CoreBitcoin/CoreBitcoin.h>
 
 @interface ScanQRCodeViewController ()
 
+- (IBAction)onQRScan:(id)sender;
 @end
 
 @implementation ScanQRCodeViewController
@@ -34,4 +36,11 @@
 }
 */
 
+- (IBAction)onQRScan:(id)sender {
+    UIView * view =  [BTCQRCode scannerViewWithBlock:^(NSString *message) {
+        NSLog(@"QR ====> %@", message);
+        
+    }];
+    [self.view addSubview:view];
+}
 @end

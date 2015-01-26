@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Chain/Chain.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Chain sharedInstanceWithToken:@"2277e102b5d28a90700ff3062a282228"];
+    
     return YES;
 }
 
